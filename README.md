@@ -44,7 +44,7 @@ This service is use for filter and forward mail inbox specially Gmail inboxes to
 - Add script to `package.json`
   ```json
   {
-    "script": {
+    "scripts": {
       "push": "clasp push -f",
       "build": "clasp deploy --deploymentId <your-deployment-id>"
     }
