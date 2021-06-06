@@ -1,13 +1,14 @@
 {
   "name": "gas-gmail-automation",
   "version": "1.0.0",
-  "description": "Description here.",
+  "description": "This service is use for filter and forward mail inbox specially Gmail inboxes to whatsapp messages.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "script": {
+    "push": "clasp push",
+    "build": "clasp deploy"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["gas", "google apps script", "gmail automation", "javascript"],
+  "author": "Haqi Ramadhani",
   "license": "ISC",
   "dependencies": {
     "@google/clasp": "^2.3.2",

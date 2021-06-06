@@ -41,6 +41,16 @@ This service is use for filter and forward mail inbox specially Gmail inboxes to
   }
   ```
 
+- Add script to `package.json`
+  ```json
+  {
+    "script": {
+      "push": "clasp push",
+      "build": "clasp deploy"
+    }
+  }
+  ```
+
 ## 3. Setup GitHub Workflows
 
 - Create file `.github/workflows/gas-delivery.yaml` and paste this code
