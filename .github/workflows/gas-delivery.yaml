@@ -26,5 +26,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: npm run push -f
+      - run: npm run push
       - run: npm run build --deploymentId ${{ secrets.DEPLOY_ID }}

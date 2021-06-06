@@ -4,7 +4,7 @@
   "description": "This service is use for filter and forward mail inbox specially Gmail inboxes to whatsapp messages.",
   "main": "index.js",
   "script": {
-    "push": "clasp push",
+    "push": "clasp push -f",
     "build": "clasp deploy"
   },
   "keywords": ["gas", "google apps script", "gmail automation", "javascript"],
