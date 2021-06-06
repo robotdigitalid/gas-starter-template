@@ -5,7 +5,7 @@
   "main": "index.js",
   "script": {
     "push": "clasp push -f",
-    "build": "clasp deploy"
+    "build": "clasp deploy --deploymentId AKfycbx47n08GXz1dBekYyDIgf-LeZo0qqdD-6C5fNHGdH8bXOYwvPVDDNzHG20Qk7v6kAuq"
   },
   "keywords": ["gas", "google apps script", "gmail automation", "javascript"],
   "author": "Haqi Ramadhani",
