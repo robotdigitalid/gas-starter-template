@@ -29,6 +29,11 @@ This service is use for filter and forward mail inbox specially Gmail inboxes to
   clasp create --name <project-name>
   ```
 
+- Get Deployment ID
+  ```shell
+  clasp deploy --description auto
+  ```
+
 - Create new file `Kode.js` in root folder and write this code
   ```javascript
   const test = () => {
@@ -81,6 +86,7 @@ This service is use for filter and forward mail inbox specially Gmail inboxes to
   CLIENT_ID: xxx
   CLIENT_SECRET: xxx
   REFRESH_TOKEN: xxx
+  DEPLOYMENT_ID: xxx
   ```
 
 - Push code to your repository
