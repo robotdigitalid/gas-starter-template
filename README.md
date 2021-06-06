@@ -76,4 +76,18 @@ This service is use for filter and forward mail inbox specially Gmail inboxes to
 
 - Create GitHub account `if not exist`
 - Create GitHub repository [here](https://github.com/new)
-- Add GitHub Actions Secrets on *Settings > Secrets > New repository secret*
+- Add GitHub Actions Secrets on your repository *Settings > Secrets > New repository secret*
+  ```yaml
+  CLIENT_ID: xxx
+  CLIENT_SECRET: xxx
+  REFRESH_TOKEN: xxx
+  ```
+
+- Push code to your repository
+  ```shell
+  git init
+  git add .
+  git commit -m "Initial GAS project"
+  git remote add origin <your-repository-url>
+  git push origin master
+  ```
