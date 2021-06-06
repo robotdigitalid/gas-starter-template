@@ -11,7 +11,9 @@
   "author": "Haqi Ramadhani",
   "license": "ISC",
   "dependencies": {
-    "@google/clasp": "^2.3.2",
     "@types/google-apps-script": "^1.0.33"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.3.2"
   }
 }
