@@ -128,3 +128,11 @@ This service is use for filter and forward mail inbox specially Gmail inboxes to
   ```
   
 - Write your code
+
+| Item          | Price          | Qty   | Total        |
+|...............|...............:|:.....:|.............:|
+| Laptop        | @Rp  7.000.000 | x  5  | = 35.000.000 |
+| Server        | @Rp  4.000.000 | x  1  | =  4.000.000 |
+| Internet      | @Rp    500.000 | x 12  | =  6.000.000 |
+| Tempat        | @Rp 15.000.000 | x  1  | = 15.000.000 |
+| Meja & Kursi  | @Rp  1.000.000 | x  5  | =  5.000.000 |
